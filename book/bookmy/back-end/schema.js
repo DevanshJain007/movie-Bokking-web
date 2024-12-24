@@ -18,6 +18,7 @@ const TicketSchema = new mongoose.Schema({
 
 export default mongoose.model("ticket",TicketSchema)
 
+
 // mongoose.connect():
 
 // This method is used to connect to the MongoDB database.
